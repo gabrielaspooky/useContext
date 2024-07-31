@@ -1,12 +1,11 @@
-// src/context/UserDataContext.js
 import React, { createContext, useState } from 'react';
 
-// Crear el contexto
+
 const UserDataContext = createContext();
 
-// Crear el proveedor
+
 const UserDataProvider = ({ children }) => {
-  // Estado para almacenar las preferencias del usuario
+
   const [data, setData] = useState({
     favoritePet: '',
     favoriteFood: '',
@@ -15,7 +14,7 @@ const UserDataProvider = ({ children }) => {
     isDrunk: false,
   });
 
-  // Función para actualizar las preferencias
+
   const updateData = (newData) => {
     setData((prevData) => ({
       ...prevData,

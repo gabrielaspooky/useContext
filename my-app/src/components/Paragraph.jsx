@@ -1,4 +1,3 @@
-// NumberDisplay.js
 import React, { useContext } from 'react';
 import { NumberContext } from '../context/NumberContext';
 

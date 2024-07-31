@@ -1,4 +1,3 @@
-// InputButton.js
 import React, { useContext, useState } from 'react';
 import { NumberContext } from '../context/NumberContext';
 

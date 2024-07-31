@@ -1,4 +1,3 @@
-// UserDataCard.js
 import React, { useContext } from 'react';
 import { UserDataContext } from '../context/DataContext';
 
