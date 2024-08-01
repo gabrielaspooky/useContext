@@ -11,8 +11,7 @@ const UserDataForm = () => {
     isDrunk: false,
   });
 
-  // Manejar los cambios en el formulario
-  const handleChange = (e) => {
+  const handleChange = (e) => { 
     const { name, value, type, checked } = e.target;
     setFormState((prevState) => ({
       ...prevState,
@@ -20,10 +19,10 @@ const UserDataForm = () => {
     }));
   };
 
-  // Manejar el envío del formulario
+
   const handleSubmit = (e) => {
-    e.preventDefault(); // Evitar el comportamiento por defecto del formulario
-    updateData(formState); // Actualizar el contexto con los datos del formulario
+    e.preventDefault(); 
+    updateData(formState); 
   };
 
   return (
